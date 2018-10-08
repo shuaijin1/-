@@ -1,0 +1,254 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+}
+header {
+    height: 100%;
+    width: 100%;
+    min-width: 1200px;
+    min-height: 600px;
+    background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1538827630920&di=34ad582fd882a453330f9452dd2f9d34&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20180103%2F8bdb000d504f44149b53ffd724def4e4.jpeg)
+    center center no-repeat;
+    background-size:cover;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 400; 
+    font-size: 16px;
+    display: inline-block;
+    padding: 5px;
+}
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+.button {
+    font-size: 1.5em;
+    background-color: #fed136;
+    color: aliceblue;
+    padding: 15px 15px;
+    border-radius: 4px;
+}
+.button:hover {
+    background-color: rgb(161, 161, 4);
+}
+.layout{
+   width: 1200px;
+   margin: 0 auto;
+}
+.navbar>.logo {
+    font-size: 30px;
+    color: rgb(44, 37, 37);
+    float: left;
+    margin-top: 20px;
+    font-weight: 500;
+}
+header .nav{
+    float: right;
+    margin: 20px 20px;
+    position: relative;
+}
+.nav>li {
+    float:left;
+    margin: 10px;
+}
+.nav>li>a:hover{
+    background: #fed136;
+    border-radius: 3px;
+    font-size: 16px;
+}
+header .intro{
+    margin: auto;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%);
+    white-space: nowrap;
+}
+.intro{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+header>.intro h3{
+    font-size: 30px;
+    color: antiquewhite;
+    
+}
+header>.intro h2{
+    font-size: 70px;
+    color: aliceblue;
+    margin-bottom: 50px;
+}
+.intro>h1{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.attractions{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    min-width: 600px;
+    margin-bottom: 130px;
+}
+.content{
+    float: left;
+    margin-top: 30px;
+    padding: 10px 30px;
+    width: 33.333%;
+}
+.content>h3{
+    margin-bottom: 10px;
+}
+.content .iconfont{
+    font-size: 4em;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #fed136;
+    color: aliceblue;
+    border-radius: 50%;
+}
+.wall{
+    background-color: rgb(241, 241, 241);
+    padding-top: 1px;
+    padding-bottom: 120px; 
+   
+}
+.row .legend {
+    float: left;
+    width: 30%;
+    margin: 20px 1.5%;
+    background-color: white;
+    position: relative;
+}
+.wall>.row img {
+    height: 260px;
+    display: block;
+    width: 360px;
+}
+.legend>a{
+    display: block;
+    padding: 0;
+    width: 360px;
+    height: 260px;
+}
+.legend h4,p {
+   margin: 10px 10px;
+}
+.wall>.row>.legend>a:hover {
+    opacity: .5;
+}
+.intro-one {
+    float: left;
+    width: 400px;
+    height: 300px;
+    text-align: right;
+    margin-left: 120px;
+    padding: 10px;
+}
+.intro-both {
+   float: right;
+   width: 400px;
+   height: 300px;
+   text-align: left;
+   margin-right:130px; 
+   padding: 15px;
+}
+.timeline .timeline-img img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0;
+    border: 8px solid rgb(235, 234, 234);
+}
+.timeline{
+    position: relative;
+}
+.timeline li{
+    margin: 120px auto;
+}
+.end {
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   border: 8px solid rgb(236, 236, 236);
+   background-color: yellowgreen;
+   margin: 0 auto;
+   text-align: center;
+   color: white;
+   padding-top: 45px;
+}
+.timeline>li::after{
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: "";
+    width: 3px;
+    background-color: #e2e2e2;
+    left: 50%;
+    margin-left: -1.5px;
+    z-index: -1;
+}
+.team img {
+    
+    border: 6px solid #fff;
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    
+}
+.team a{
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    padding-top: 8
+    px;
+    border-radius: 50%;
+    background-color: #222;
+    transition: all .5s;
+}
+.team li {
+    display: block;
+    float: left;
+    width: 22%;
+    margin: 0 auto;
+}
+.team h4 {
+    margin-top: 15px; 
+}
+.team>ul{
+    height: 40px;
+    margin-top: 15px;
+    margin-left:25%; 
+}
+.team{
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+.team a:hover {
+    background-color: #e4b60f;
+}
+.teamwork {
+    background-color: rgb(241, 241, 241);
+    padding-top: 1px;
+    width: 100%;
+    height: 100%;
+    min-width: 1200px;
+    min-height: 800px;
+}
+.teamwork>p {
+    width: 700px;
+    text-align: center;
+    margin-top: 500px;
+}
